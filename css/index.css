@@ -194,6 +194,7 @@ header nav a {
 }
 
 .about-middle-button {
+    /* learn more button */
     border: 2px black solid;
     width: 120px;
     height: 30px;
@@ -204,6 +205,21 @@ header nav a {
     align-content: center;
     text-align: center;
 
+    /* hover transition rules */
+  /* Firefox */
+  -moz-transition: all .3s ease-in;
+  /* WebKit */
+  -webkit-transition: all .3s ease-in;
+  /* Opera */
+  -o-transition: all .3s ease-in;
+  /* Standard */
+  transition: all .3s ease-in;
+
+}
+
+.about-middle-button:hover {
+    background-color: black;
+    color: white;    
 }
 
 
