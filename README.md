@@ -34,9 +34,9 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
-The goal of semantic HTML is to increase our understanding of HTML elements. If all elements were just <div></div>, it would be extremely hard to understand 
+The goal of semantic HTML is to increase our understanding of HTML elements. If all elements were just divs, it would be extremely hard to understand 
 
-When we use elements like <header>, <body>, <article>, etc, it makes it much easier for the person reading the HTML to understand the page. This is true whether someone else is reading the code, or you are!
+When we use elements like header body and article, etc, it makes it much easier for the person reading the HTML to understand the page. This is true whether someone else is reading the code, or you are!
 
 In one place I also read that it's a good idea to use strong and not b for this exact reason. But the first thing I see on the W3Schools site for strong is a tip saying that you can achieve better effects in CSS (and they imply that strong might go away in the future) so it's probably a good idea to understand Semantic HTML and use CSS for styling.
 
