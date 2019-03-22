@@ -38,7 +38,7 @@ The goal of semantic HTML is to increase our understanding of HTML elements. If 
 
 When we use elements like <header>, <body>, <article>, etc, it makes it much easier for the person reading the HTML to understand the page. This is true whether someone else is reading the code, or you are!
 
-In one place I also read that it's a good idea to use <strong> and not <b> for this exact reason. But the first thing I see on the W3Schools site for <strong> is a tip saying that you can achieve better effects in CSS (and they imply that <strong> might go away in the future) so it's probably a good idea to understand Semantic HTML and use CSS for styling.
+In one place I also read that it's a good idea to use strong and not b for this exact reason. But the first thing I see on the W3Schools site for strong is a tip saying that you can achieve better effects in CSS (and they imply that strong might go away in the future) so it's probably a good idea to understand Semantic HTML and use CSS for styling.
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
