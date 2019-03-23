@@ -34,13 +34,46 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+The goal of semantic HTML is to increase our understanding of HTML elements. If all elements were just divs, it would be extremely hard to understand 
+
+When we use elements like header body and article, etc, it makes it much easier for the person reading the HTML to understand the page. This is true whether someone else is reading the code, or you are!
+
+In one place I also read that it's a good idea to use strong and not b for this exact reason. But the first thing I see on the W3Schools site for strong is a tip saying that you can achieve better effects in CSS (and they imply that strong might go away in the future) so it's probably a good idea to understand Semantic HTML and use CSS for styling.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+First big difference is that display: block causes items to be stacked vertically, and display: inline can cause them to be displayed horizontally.
+
+More accurately: 
+
+Block items take up the entire width of the page
+
+For Inline items, height and width have no effect
 
 3. What are the 4 areas of the box model?
 
+I was going to guess - header, body, article, and I couldn't think of a fourth. 
+
+A quick Google search shows they are - margin, padding, border, and the actual content.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+Align-items works on NOT the main axis - the other one.
+
+Thanks to the Lambda Toolkit I now remember the name - cross-axis.
+
+If you set flex-direction as column, the main and cross axes will switch places.
+
 5. Explain why git is valuable to a team of developers.
+
+Git is valuable to a team of developers for a ton of reasons, here are a few:
+
+- You can have multiple people working on a project without making simultaneous changes
+- Each person gets to work on clean, undisturbed files
+- You can "roll back" changes if something doesn't work
+- It's easy to have multiple versions of a project if you want to test things out
+
+P.S. All the reasons that Git is valuable for teams are the same as an individual coder!
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
